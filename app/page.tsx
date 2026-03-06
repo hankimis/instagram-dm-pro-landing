@@ -3,6 +3,7 @@ import Stats from "./components/Stats";
 import Features from "./components/Features";
 import AppPreview from "./components/AppPreview";
 import HowItWorks from "./components/HowItWorks";
+import Guide from "./components/Guide";
 import FAQ from "./components/FAQ";
 import DownloadButton from "./components/DownloadButton";
 import AnimateOnScroll from "./components/AnimateOnScroll";
@@ -37,6 +38,9 @@ export default function Home() {
 
       {/* How It Works */}
       <HowItWorks />
+
+      {/* Detailed Guide */}
+      <Guide />
 
       {/* FAQ */}
       <FAQ />
